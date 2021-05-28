@@ -6,7 +6,7 @@ const CHECK = "fa-check-circle";
 const UNCHECK = "fa-circle-thin";
 const LINE_THROUGH = "lineThrough";
 
-let LIST=null, id=0;
+let LIST=new Array(), id=0;
 
 
 function addToDo(text, id, done, trash){    
